@@ -45,11 +45,11 @@
 	}
 
 	var enemies = [
+		{left: 150, top: 200},
+		{left: 250, top: 200},
 		{left: 350, top: 200},
 		{left: 450, top: 200},
-		{left: 550, top: 200},
-		{left: 650, top: 250},
-		{left: 750, top: 200}
+		{left: 550, top: 200}
 
 	]
 
@@ -63,7 +63,7 @@
 
 	function moveEnemies(){
 		for(var idx=0; idx<enemies.length; idx++){
-			enemies[idx].top = enemies[idx].top +5;
+			enemies[idx].top = enemies[idx].top +1;
 		}
 	}
 
@@ -77,16 +77,17 @@
 	}
 
 	function drawMissiles(){
-		content = ""
+		content = "";
 		for(var idx=0; idx<missiles.length; idx++){
 			content += "<div class='missile' style='left:"+missiles[idx].left+"px; top:"+missiles[idx].top+" px'></div>"
 		}
 		document.getElementById("missiles").innerHTML = content;
+		console.log(missiles);
 	}
 
 	function moveMissiles(){
 		for(var idx= 0; idx<missiles.length; idx++){
-			missiles[idx].top = missiles[idx].top -10;
+			missiles[idx].top = missiles[idx].top -4;
 		}
 	}
 
@@ -110,13 +111,13 @@
 			missiles.push({left:(player.left+34), top: (player.top -8)});
 			drawMissiles();
 		}
-		console.log(missiles);
 
 		drawPlayer();
 	}
 
 
 	function gameLoop(){
+		console.log('gameLoop is running!')
 
 		drawPlayer();
 		
@@ -126,7 +127,7 @@
 		moveMissiles();
 		drawMissiles();
 
-		setTimeout(gameLoop, 1000)
+		setTimeout(gameLoop, 100)
 	}
 	gameLoop();
 
