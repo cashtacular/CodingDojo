@@ -55,6 +55,26 @@ function beCheerful(){
 
 beCheerful();
 
+//counting the dojo way
+var num=6;
+		while(num<60001){
+			if(num%6===0){
+				console.log(num);
+				num=num+6;
+				
+			}
+		}
+
+//multiples of 3
+for(i=-300;i<0;i++){
+			if(i!=-3 && i!=-6){
+				
+				console.log(i);
+
+			}
+		}
+
+
 
 </script>
 
