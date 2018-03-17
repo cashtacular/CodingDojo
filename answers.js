@@ -29,6 +29,33 @@ for(var i=512; i<4097; i++){
 }
 console.log(log);
 
+//print -52 to 1066
+for(var i=-52; i<1067; i++){
+			console.log(i);
+		}
+
+//multiples of 6
+var num=6;
+		while(num<60001){
+			if(num%6===0){
+				console.log(num);
+				num=num+6;
+				
+			}
+		}
+
+//dont worry be happy
+function beCheerful(){
+		var msg="good morning!";
+		for(var i=0; i<98; i++){
+			console.log(msg);
+		}
+
+	}
+
+beCheerful();
+
+
 </script>
 
 </html>
