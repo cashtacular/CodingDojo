@@ -74,6 +74,46 @@ for(i=-300;i<0;i++){
 			}
 		}
 
+//what do you know
+var x ="incoming"
+		function onItsWay(i){
+			console.log(i);
+		}
+		onItsWay(x);
+//integers using while
+ var num=2000;
+		 while(num<5281){
+		 	console.log(num);
+		 num++;
+		 }
+		 
+//thats huge
+	var sum=0;
+		for(var i=-300000; i<300001; i++){
+			if(i%2 ===0){
+				sum+=i;
+			}
+			
+		}
+console.log(sum);
+
+//its your bday
+var birthMonth = 4;
+var birthDay = 17;
+
+function bday(month, day)
+{
+	if((month==birthMonth && day==birthDay)||(month==birthDay && day==birthMonth))
+	{
+		console.log("how did you know?");
+	}
+	else
+	{
+		console.log("another day");
+	}
+}
+
+bday(4,17);
 
 
 </script>
