@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+    <head>
+
+    </head>
+        <body>
+            
+           <h1>My Registration Form</h1> 
+        </body>
+        
+                <label>
+                    Name:<input type="text" name="name">
+                </label>
+                <label>
+                    <br><br>
+                        Last Name:<input type="text" name="name">
+                    </label>
+                    <br><br>
+                        Email:<input type="text" name="name">
+                    </label>
+                    <br><br>
+                    <label>
+                        Password:<input type="password" name="password">
+                    </label>
+                    <br><br>
+                    <label>
+                        PW confirm:<input type="password" name="password">
+                    </label>
+                    <br><br>
+                    <label>
+                        Birthday:<input type="date" name="birthday">
+                    </label>
+                <br><br>
+                <label>
+                   Male<input type="radio" name="gender" value="male"> 
+                </label>
+                <label>
+                   Female<input type="radio" name="gender" value="female">
+                </label>
+                <label>
+                    Other<input type="radio" name="gender" value="other">
+                </label>
+                <p>Tell us a little about yourself!</p>
+                
+                <textarea name="description"></textarea>
+                <br><br>
+                <select name="Favorite Language">
+                        <option value="JavaScript">JavaScript</option>
+                        <option value="Ruby on rails">Ruby</option>
+                        <option value="MEAN">MEAN</option>
+                    </select>
+                    
+                        
+                    
+                </table>
+               
+                <br><br>
+                <input type="submit" value="Submit">
+            </form>
+        
+    
+</html>
