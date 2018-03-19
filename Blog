@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="utf-8">
+
+        <title> I LOVE SNOWBOARDING! </title>
+    </head> 
+    <body>
+        <h1> Lets Get the CHOWDA! </h1>
+        <p> Where to Get the Best Pow!? </p>
+        <div class="container">
+                <article>
+                    <h1>Waist Deep All Day!</h1>
+                </article>
+            </div>
+            <h1>Champagne Powda Hound</h1>
+            <p>Rule #1: stay with friends on a pow day.</p>
+            <img id="logo" src="https://scontent-iad3-1.cdninstagram.com/vp/33b2db2af4b32f7fd8a0c0bc5b3b73de/5B41F92C/t51.2885-15/e35/c238.0.603.603/28753685_190311851742667_5239336742175113216_n.jpg" alt="My First Website's logo">
+               <br><br>
+               <p>I am currently enrolled in my first day of Coding Dojo in Burbank, CA.</p><p> I decided to try something new and change my life path.</p><p> This was not an easy decision for me.</p><p> I am not the stare at a screen all day type.</p><p> Unless its my XBOX...</p> 
+               <p>My dream is to have the freedom to work remotely and spend all of my freetime snowboarding.</p><p>So many people have doubted me and are just waiting to hear that I've dropeed out. Not going to happen</p>    
+               <a href="https://www.youtube.com/watch?v=XOJryXPmwbk">get that DEEEEEEP</a>
+               <ul>
+                    <li>BaldFace Lodge</li>
+                    <li>Jackson Hole</li>
+                    <li>Aspen</li>
+                </ul>
+                <p>These are the big 3 on the hit list</p>
+                <label>
+                        Email:<input type="text" name="EMAIL">
+                </label>
+                <br>
+                <label>
+                        ONLY THE BIG NEWS<input type="radio" name="email q" value="maybe"> 
+                     </label>
+                     <label>
+                        SEND ME ALL THE NEWS<input type="radio" name="email q" value="yes">
+                     </label>
+
+                     <br><br>
+                     <input type="submit" value="Submit">
+                     <br><br>
+                     <h3>How did you hear about us?</h3>
+                     
+                     <label>
+                           FaceBook<input type="radio" name="where" value="facebook"> 
+                         </label>
+                         <br>
+                         <label>
+                        MySpace<input type="radio" name="where" value="MySpace"> 
+                            </label>
+                            <br>
+                            <label>
+                            Other<input type="radio" name="where" value="Other"> 
+                            </label>
+                    
+    </body>
+</html>
