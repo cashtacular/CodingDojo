@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="reset.css" type="text/css">
+        <link rel="stylesheet" href="Portfolio.css" type="text/css">
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="header">
+                <h1 class="text">Jayne Doe</h1>
+                <h2 class="text2">Master of shadows and the internet!</h2>
+            </div>
+            <div id="main-content">
+                <div class="photo">
+                    <img src="photo_of_me.jpg"  alt="YOU DONE GOOFED">
+                </div>
+                <div class="about">
+                    <h3>About...</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, optio! Asperiores quo debitis laborum doloremque, non quia cupiditate repellat ex quos dolor! Impedit sit quaerat officiis, explicabo sunt voluptatibus culpa! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo voluptatem dignissimos accusamus, asperiores iste sapiente rem molestiae est excepturi natus quisquam sed debitis voluptatum aut ex nisi. Deleniti, consectetur esse.</p>
+                </div>
+                <div id="columns">
+                    <div class="box">
+                        <h3>La mode</h3>
+                        <img src="lamode.png" alt="pretty">
+                        <p class="p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo, voluptatibus esse natus in quis tempora autem earum iste delectus sint modi ratione optio, dolor consequuntur ipsum facilis eligendi. Accusantium, neque?</p>
+                        <h4>Technologies</h4>
+                        <img class="img2" src="php.png" alt="php">
+                        <img class="img2" src="codeigniter.png" alt="codeigniter">
+                        <img class="img2" src="jQuery.png" alt="jQuery">
+                        <img class="img2" src="ajax.png" alt="ajax">
+                        <img class="img2" src="mysql.png" alt="sql">
+                        <img class="img2" src="HTML.png" alt="HTML">
+                        <img class="img2" src="CSS.png" alt="CSS">
+                        <img class="img2" src="bootstrap.png" alt="bootstrap">
+                        <br>
+                        <button class="button">La Mode</button>
+
+
+                    </div>
+                    <div class="box">
+                        <h3>Family Contacts</h3>
+                        <img src="familycontacts.png" alt="family">
+                        <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quidem quaerat nihil cupiditate incidunt voluptatem, fugiat temporibus soluta alias rem itaque deleniti dolor rerum dolorem consectetur. Consectetur illum quas vel.</p>
+                        <h4>Technologies</h4>
+                        <img class="img2" src="JavaScript.png" alt="javascript">
+                        <img class="img2" src="mongodb.png" alt="mongo">
+                        <img class="img2" src="expressjs.png" alt="expressjs">
+                        <img class="img2" src="angular.png" alt="angular">
+                        <img class="img2" src="nodejs.png" alt="node">
+                        <img class="img2" src="HTML.png" alt="HTML">
+                        <img class="img2" src="CSS.png" alt="CSS">
+                        <img class="img2" src="socket.png" alt="socket">
+                        <br>
+                        <button class="button">Family Contacts</button>
+                    </div>
+                    <div class="box">
+                        <h3>fiveEleven</h3>
+                        <img src="fiveEleven.png" alt="5.11">
+                        <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dignissimos culpa voluptatum quaerat atque animi. Natus praesentium culpa voluptate incidunt quasi, consectetur, alias reprehenderit ab veritatis ipsam voluptatibus, inventore ut.</p>
+                        <h4>Technologies</h4>
+                        <img class="img2" src="python.png" alt="python">
+                        <img class="img2" src="django.png" alt="django">
+                        <img class="img2" src="sqlite.png" alt="sqlite">
+                        <img class="img2" src="d3.png" alt="d3">
+                        <img class="img2" src="angular.png" alt="angular">
+                        <img class="img2" src="HTML.png" alt="HTML">
+                        <img class="img2" src="CSS.png" alt="CSS">
+                        <img class="img2" src="JavaScript.png" alt="JavaScript">
+                        <img class="img2" src="materialize.png" alt="materialize">
+                        <br>
+                        <button class="button">fiveEleven</button>
+                    </div>
+                </div>
+            </div>
+            <div id="footer">
+                <img class="img3" src="github.png" alt="github"><a>jaynedev</a>
+                <img class="img3" src="linkedin.png" alt="linkedin"><a>jayne-doe</a>
+                <img class="img3" src="twitter.png" alt="twitter"><a>jdtweets</a>
+                <img class="img3" src="codepen.png" alt="codepen"><a>jaynedev</a>
+            </div>
+        </div>
+    </body>
+
+</html>
